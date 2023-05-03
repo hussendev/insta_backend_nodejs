@@ -1,0 +1,36 @@
+{
+  "name": "insta-master-back",
+  "version": "1.0.0",
+  "description": "Backend project for SDF course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salemAmassi/insta-master-back.git"
+  },
+  "author": "Salem Amassi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salemAmassi/insta-master-back/issues"
+  },
+  "homepage": "https://github.com/salemAmassi/insta-master-back#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "deepai": "^1.0.21",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "firebase-admin": "^11.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "mongoose-sequence": "^5.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
